@@ -1,0 +1,10 @@
+# this code greets the user by name
+
+def hello(to):
+    print(f"Hello, {to}")
+
+name = input("Enter your name: ").title()
+hello(name)
+
+#output without passing expected argument
+hello()
