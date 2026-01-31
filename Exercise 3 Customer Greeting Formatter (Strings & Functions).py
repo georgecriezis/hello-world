@@ -21,9 +21,9 @@ def main():
     user_input = input("What's your full name? ")
     
     # Call the function and print the result
-    # You can also pass a second argument here to test the custom title extension
     greeting = format_greeting(user_input)
     print(greeting)
 
 if __name__ == "__main__":
+
     main()
